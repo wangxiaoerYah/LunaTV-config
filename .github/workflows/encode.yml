@@ -3,9 +3,9 @@ name: Encode JSON to Base58
 on:
   push:
     paths:
-      - 'LunaTV-config.json'
-      - 'jingjian.json'
-      - 'jin18.json'
+      - 'conf/LunaTV-config.json'
+      - 'conf/jingjian.json'
+      - 'conf/jin18.json'
   workflow_dispatch:
 
 jobs:

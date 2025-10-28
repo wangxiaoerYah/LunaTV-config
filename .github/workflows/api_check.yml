@@ -3,10 +3,10 @@ name: API Health Check
 
 on:
   schedule:
-    - cron: "0 */1 * * *"  # 每 1 小时运行一次 (UTC)
+    - cron: "0 */4 * * *"  # 每 1 小时运行一次 (UTC)
   push:
     paths:
-      - LunaTV-config.json  # 监听 LunaTV-config.json 文件变更
+      - "conf/LunaTV-config.json"  # 监听 LunaTV-config.json 文件变更
   workflow_dispatch:  # 手动触发工作流
 
 jobs:
