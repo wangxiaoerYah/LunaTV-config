@@ -3,9 +3,9 @@ const bs58 = require('bs58');
 
 // 定义要处理的文件列表
 const files = [
-  { input: 'conf/LunaTV-config.json', output: 'sub/LunaTV-config.txt' },
-  { input: 'conf/jingjian.json', output: 'sub/jingjian.txt' },
-  { input: 'conf/jin18.json', output: 'sub/jin18.txt' }
+  { input: '../conf/LunaTV-config.json', output: '../sub/LunaTV-config.txt' },
+  { input: '../conf/jingjian.json', output: '../sub/jingjian.txt' },
+  { input: '../conf/jin18.json', output: '../sub/jin18.txt' }
 ];
 
 files.forEach(file => {
