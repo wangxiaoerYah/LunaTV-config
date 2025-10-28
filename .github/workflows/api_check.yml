@@ -3,7 +3,7 @@ name: API Health Check
 
 on:
   schedule:
-    - cron: "0 */4 * * *"  # 每 1 小时运行一次 (UTC)
+    - cron: "0 */6 * * *"  # 每 1 小时运行一次 (UTC)
   push:
     paths:
       - "conf/LunaTV-config.json"  # 监听 LunaTV-config.json 文件变更
