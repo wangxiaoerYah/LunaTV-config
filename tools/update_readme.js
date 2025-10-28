@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const reportPath = path.join(__dirname, 'report.md');
-const readmePath = path.join(__dirname, 'README.md');
+const reportPath = path.join(__dirname, '../report.md');
+const readmePath = path.join(__dirname, '../README.md');
 
 // 读取 report.md
 if (!fs.existsSync(reportPath)) {

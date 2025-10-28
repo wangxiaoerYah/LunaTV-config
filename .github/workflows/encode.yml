@@ -27,10 +27,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm --prefix tools install
 
       - name: Run encoding script
-        run: npm run encode
+        run: npm --prefix tools run encode
 
       - name: Commit and push encoded files
         run: |
